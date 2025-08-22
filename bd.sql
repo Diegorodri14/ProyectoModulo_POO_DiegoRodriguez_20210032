@@ -64,5 +64,9 @@ INSERT INTO autores(nombre, apellido, nacionalidad, fecha_nacimiento)VALUES
 
 //Libros
 INSERT INTO libros(titulo, isbn, año_publicado, genero, autor_id)VALUES
-('El pricipito','1-4028-9462-7','04/06/2019','Comedia',);
+('El pricipito','1-4028-9462-7',2019,'Comedia',1);
+INSERT INTO libros(titulo, isbn, año_publicado, genero, autor_id)VALUES
+('Habitos Atomicos','5-6351-0723-8',2020,'Enseñanza',2);
+INSERT INTO libros(titulo, isbn, año_publicado, genero, autor_id)VALUES
+('El lorax','0-1234-5678-9',2018,'Terror',3);
 
